@@ -92,7 +92,7 @@ def format_temperature(temperature):
 
 # 随机颜色
 def get_random_color():
-  return "#%06x" % random.randint(0, 0xFFFFFF)
+  return "#%06x" % random.randint(0x000000, 0x000000)
 
 # 返回一个数组，循环产生变量
 # def split_birthday():
